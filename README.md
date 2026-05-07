@@ -56,20 +56,18 @@ The final performance is calculated as the average accuracy across both folds, r
 
 ## 📈 Training Results
 
-The training process shows consistent convergence across both folds, with the model achieving near-perfect training accuracy while maintaining strong validation performance.
+The training process demonstrates strong convergence behaviour across both folds of cross-validation. The model shows stable learning with high training accuracy and consistent performance across validation splits, indicating good generalization capability.
 
-<div align="center">
-<img src="YOUR_TRAINING_LOG_IMAGE.png" width="85%" />
-</div>
+The results also highlight that the model is able to learn meaningful patterns from handwritten digit data while maintaining low overfitting due to the use of early stopping, label smoothing, and learning rate decay.
 
 ---
 
-## 📊 Classification Report
-
-The model was evaluated using precision, recall, and F1-score across all digit classes. The results show consistently high performance across all categories.
+### 🧠 Training Performance Visualization
 
 <div align="center">
-<img src="YOUR_CLASSIFICATION_REPORT_IMAGE.png" width="85%" />
+<img src="https://i.imgur.com/QZ57gaf.png" width="85%" alt="Training Results 1"/>
+<br><br>
+<img src="https://i.imgur.com/bADAITj.png" width="85%" alt="Training Results 2"/>
 </div>
 
 ---
